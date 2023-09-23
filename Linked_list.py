@@ -25,7 +25,7 @@ class Linked_list:
         while itr.next:
             itr = itr.next
         itr.next = Node(data,None)
-        def insert_values(self,data_list):
+    def insert_values(self,data_list):
         self.head = None
         for i in data_list:
             self.insert_at_end(i)
